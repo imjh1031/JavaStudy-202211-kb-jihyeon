@@ -24,7 +24,7 @@ public class Method1 {
         System.out.println("매개변수 b : " + b);
         System.out.println("a + b = " + (a + b));
         System.out.println();
-        return a + b;
+        return a + b; // 돌려주는 값
     }
 
     public static int max(int a, int b) {
