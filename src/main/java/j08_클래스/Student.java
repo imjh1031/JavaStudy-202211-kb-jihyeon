@@ -12,7 +12,7 @@ public class Student {
     Student(String school, String name, int year, boolean gender) {
         this.school = school;
         this.name = name;
-        this.studentYear = studentYear;
+        this.studentYear = year;
         this.gender = gender;
     }
 

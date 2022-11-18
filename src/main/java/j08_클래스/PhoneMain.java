@@ -24,7 +24,7 @@ public class PhoneMain {
 
 /*
 
-    Class : Student, StudeentMain
+    Class : Student, StudentMain
     학생 정보
     String school(학교명)
     String name(학생이름)
