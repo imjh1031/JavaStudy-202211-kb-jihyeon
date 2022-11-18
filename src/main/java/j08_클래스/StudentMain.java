@@ -5,7 +5,7 @@ public class StudentMain {
     public static void main(String[] args) {
 
         Student student = new Student();
-        Student student2 = new Student("부경대학교", "홍길순", 2, false);
+        Student student2 = new Student("부경대학교", "홍길순", 4, false);
 
         student.school = "부산대학교";
         student.name = "홍길동";
