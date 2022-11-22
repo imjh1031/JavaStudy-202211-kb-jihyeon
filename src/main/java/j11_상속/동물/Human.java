@@ -3,7 +3,7 @@ package j11_상속.동물;
 public class Human extends Animal {
 
     public Human() {
-        super();
+        super(); // 호출
         System.out.println("Human 객체 생성");
     }
 
