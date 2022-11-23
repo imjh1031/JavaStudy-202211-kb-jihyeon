@@ -1,4 +1,4 @@
-package j12_추상.인터페이스;
+package j12_추상.인터페이스; // 여러개의 다중 구현 가능
 
 public class CalcMain {
 
