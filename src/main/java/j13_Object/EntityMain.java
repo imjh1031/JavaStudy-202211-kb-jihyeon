@@ -22,7 +22,7 @@ public class EntityMain {
         System.out.println(Entity.class == entity.getClass());
         System.out.println(Entity.class.equals(obj.getClass()));
         System.out.println(obj instanceof Entity);
-        
+
     }
 
 }
