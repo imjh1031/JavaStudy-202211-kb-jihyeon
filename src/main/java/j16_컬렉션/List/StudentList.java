@@ -43,9 +43,9 @@ public class StudentList {
 
         String lastName = null;
         for (int i = 0; i < students.size(); i++) {
-            int nowIndex = students.size() - 1 - i;
-            int preIndex = nowIndex - 1;
-            Student s = students.get(nowIndex);
+            int nowIndex = students.size() - 1 - i; // 인덱스 4번에서 부터 거꾸로
+            int preIndex = nowIndex - 1; //
+            Student s = students.get(nowIndex); // 뒤에서부터 가져옴
 
             if (nowIndex == 0) {
                 s.setName(lastName);
@@ -53,7 +53,7 @@ public class StudentList {
             }
 
             if (nowIndex == students.size() - 1) { // 마지막 이름일 때 넣어라.
-                lastName = s.getName();
+                lastName = s.getName(); // lastName에 이름을 계속 불러옴.
             }
             s.setName(students.get(preIndex).getName());
         }
