@@ -26,6 +26,10 @@ public class StringMap {
 		language.replace("java", "자바2", "자바3");
 		System.out.println(language.get("java"));
 		
+		language.remove("python");
+		
+		System.out.println(language); // ()키 값
+		
 	}
 	
 }
