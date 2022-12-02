@@ -29,7 +29,9 @@ public class Main3 {
 		
 		System.out.println();
 		
-		forEachTest(n -> {System.out.println(n);}, names);
+		//				 <----------------------> 컨슈머
+		forEachTest(n -> {System.out.println(n);}, names);		
+		
 		
 	}
 	
